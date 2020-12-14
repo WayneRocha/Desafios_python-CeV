@@ -1,0 +1,18 @@
+# ler algo, e mostrar o seu tipo primitivo e todas as informações possiveis sobre ele
+
+obj = input('digite algo: ')
+print('-----------------------')
+print('Tipo primitivo: {}'.format(type(obj)))
+print('-----------------------')
+print(' O voçê voçê digitou')
+print('-----------------------')
+print('Tem \033[1:30msomente espaços:\033[m                 \033[4:30m', obj.isspace(), '\033[m')
+print('É \033[1:30mnúmerico\033[m:                          \033[4:30m', obj.isnumeric(), '\033[m')
+print('É \033[1:30malfanúméricos\033[m:                     \033[4:30m', obj.isalnum(), '\033[m')
+print('É \033[1:30mAlfabético\033[m:                        \033[4:30m', obj.isalpha(), '\033[m')
+print('Tem \033[1:30msomente digitos\033[m:                 \033[4:30m', obj.isdigit(), '\033[m')
+print('Nome \033[1:30mválido de variavel\033[m:             \033[4:30m', obj.isidentifier(), '\033[m')
+print('Tem \033[1:30msomente letras minúsculas\033[m:       \033[4:30m', obj.islower(), '\033[m')
+print('Maiuscula e Mínuscula(\033[1:30mcapitalizada\033[m): \033[4:30m', obj.istitle(), '\033[m')
+print('Tem \033[1:30mapenas letras maiúsculas\033[m:        \033[4:30m', obj.isupper(), '\033[m')
+print('-----------------------')
