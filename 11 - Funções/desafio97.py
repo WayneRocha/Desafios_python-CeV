@@ -7,4 +7,4 @@ def faztitulo(texto, linha='-'):
     print(linha * tam_linha)
 
 
-faztitulo('srtsrtra')
+faztitulo('python!')
