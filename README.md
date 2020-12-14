@@ -1,7 +1,7 @@
 # Desafios de python 
 Este repositório conta com minhas versões de código dos 115 exercicios de python do curso de python do CeV, desde o "olá mundo" até tratamento de erros e exceções
 
-#seleção dos melhores desafios
+# seleção dos melhores desafios
 
 * desafio 19 - sorteador de alunos
 
